@@ -7,11 +7,17 @@
 			var num = document.getElementById("n1");
 			num.value = num.value * num.value;
 		}
+		function mil(){
+			var num = document.getElemetById("n1");
+			num.value = num.value * 1000;
+		}
 	</script>
 	</head>
 	<body>
 		Number: <input type="text" id="n1">
 		<p><button onclick = "cuadrado()"> x^2 </button>
+		<p><button onclick = "mil()"> 1000 </button>
+					
 	</body> 
 
 </html>
